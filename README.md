@@ -9,9 +9,12 @@ Some sample usage :
 
 1. Find some text in a zip file including text and binary files:
 
-    zipcat mylib.jar | strings | grep mytext 
+```
+zipcat mylib.jar | strings | grep mytext 
+```
 
 2. Count the lines of text in a zip file containing only text files:
 
-    zipcat myarchive.zip | wc -l
-
+```
+zipcat myarchive.zip | wc -l
+```
